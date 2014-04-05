@@ -1,0 +1,5 @@
+{
+	javascript: [
+		'~/App_Plugins/CmsEnvironmentIndicator/js/cms-environment-indicator.js'
+	]
+}
