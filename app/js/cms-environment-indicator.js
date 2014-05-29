@@ -1,4 +1,11 @@
 ﻿app.run([function () {
+	var config = [
+		{ pattern: "^localhost$", color: "#991d99" },
+		{ pattern: "^dev-.*\.umbraco\.io$", color: "#1d1d99" },
+		{ pattern: "^stage-.*\.umbraco\.io$", color: "#1d991d" },
+		{ pattern: "^.*\.umbraco\.io$", color: "#991d1d" }
+	];
+
 	var id = 'favicon';
 
 	// check if the '#favicon' already exists; if so exit
@@ -48,16 +55,11 @@
 
 	// function to match the domain/hostname and return get the associated HEX colour value
 	function getColor() {
-		var lookup = [
-			{ pattern: "^localhost$", color: "#991d99" },
-			{ pattern: "^dev-.*\.umbraco\.io$", color: "#1d1d99" },
-			{ pattern: "^stage-.*\.umbraco\.io$", color: "#1d991d" },
-			{ pattern: "^.*\.umbraco\.io$", color: "#991d1d" }
-		];
-
-		for (var i in lookup) {
-			if (new RegExp(lookup[i].pattern, "i").test(document.domain)) {
-				return lookup[i].color;
+		if (config) {
+			for (var i in config) {
+				if (new RegExp(config[i].pattern, "i").test(document.domain)) {
+					return config[i].color;
+				}
 			}
 		}
 
