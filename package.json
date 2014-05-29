@@ -1,6 +1,6 @@
 {
   "name": "CmsEnvironmentIndicator",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "Displays a colour coded indicator based on which CMS environment you are viewing.",
   "license": "MIT",
   "author": {

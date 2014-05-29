@@ -7,7 +7,7 @@
       <license url="<%= licenseUrl %>"><%= license %></license>
       <url><%= url %></url>
       <requirements>
-        <major>0</major>
+        <major>7</major>
         <minor>0</minor>
         <patch>0</patch>
       </requirements>
