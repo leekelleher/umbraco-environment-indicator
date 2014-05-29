@@ -12,9 +12,9 @@ module.exports = function(grunt) {
     concat: {
       dist: {
         src: [
-          'app/js/cms.environment.indicator.js'
+          'app/js/cms-environment-indicator.js'
         ],
-        dest: '<%= dest %>/<%= basePath %>/js/cms.environment.indicator.js',
+        dest: '<%= dest %>/<%= basePath %>/js/cms-environment-indicator.js',
         nonull: true
       }
     },
@@ -25,7 +25,7 @@ module.exports = function(grunt) {
           paths: ["app/css"],
         },
         files: {
-          '<%= dest %>/<%= basePath %>/css/cms.environment.indicator.css': 'app/css/cms.environment.indicator.less',
+          '<%= dest %>/<%= basePath %>/css/cms-environment-indicator.css': 'app/css/cms.environment.indicator.less',
         }
       }
     },
