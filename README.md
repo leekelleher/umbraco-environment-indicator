@@ -6,39 +6,21 @@ As a visual aid, this package will add a colour-coded indicator in the CMS back-
 
 ![Environment Indicator](docs/environment-indicator.png)
 
-## Contribution and development
+This package was developed and tested against Umbraco v7+ on the [Umbraco-as-a-Service](https://www.umbraco.io) platform.
+
+---
+
+## Contributing to this project
 
 For the majority of users this will be a "install and forget" package, but if you want to go further, here's the low down.
 
-### Install Dependencies
+Anyone and everyone is welcome to contribute. Please take a moment to review the [guidelines for contributing](CONTRIBUTING.md).
 
-If you want to automate the building or deployment of this package, you can use Grunt:
+* [Bug reports](CONTRIBUTING.md#bugs)
+* [Feature requests](CONTRIBUTING.md#features)
+* [Pull requests](CONTRIBUTING.md#pull-requests)
 
-```bash
-npm install -g grunt-cli
-npm install
-```
 
-### Build
+### Manual Build
 
-```bash
-grunt
-```
-
-#### Build Umbraco package
-
-```bash
-grunt package
-```
-
-#### Build NuGet package
-
-```bash
-grunt nuget
-```
-
-### Watch
-
-```bash
-grunt watch
-```
+To build the Umbraco package, run the `build.cmd` script in the root of the project folder.
