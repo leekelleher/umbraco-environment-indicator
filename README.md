@@ -8,6 +8,12 @@ As a visual aid, this package will add a colour-coded indicator in the CMS back-
 
 This package was developed and tested against Umbraco v7+ on the [Umbraco-as-a-Service](https://www.umbraco.io) platform.
 
+## Package installation
+
+The package can be downloaded and installed from the Our Umbraco package repositories
+
+http://our.umbraco.org/projects/backoffice-extensions/cms-environment-indicator
+
 ---
 
 ## Contributing to this project
@@ -21,6 +27,6 @@ Anyone and everyone is welcome to contribute. Please take a moment to review the
 * [Pull requests](CONTRIBUTING.md#pull-requests)
 
 
-### Manual Build
+### Manual build
 
 To build the Umbraco package, run the `build.cmd` script in the root of the project folder.
