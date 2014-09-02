@@ -1,4 +1,4 @@
-﻿app.run([function () {
+app.run([function () {
 	var config = [
 		{ pattern: "^localhost$", color: "#991d99" },
 		{ pattern: "^dev-.*\.umbraco\.io$", color: "#1d1d99" },
