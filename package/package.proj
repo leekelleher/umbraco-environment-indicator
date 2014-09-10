@@ -15,8 +15,8 @@
 	<!-- PROPERTIES -->
 	<PropertyGroup>
 		<VersionMajor>0</VersionMajor>
-		<VersionMinor>1</VersionMinor>
-		<VersionPatch>1</VersionPatch>
+		<VersionMinor>2</VersionMinor>
+		<VersionPatch>0</VersionPatch>
 		<VersionSuffix></VersionSuffix>
 		<UmbracoVersion>7.0.0</UmbracoVersion>
 		<ProjectName>CmsEnvironmentIndicator</ProjectName>
