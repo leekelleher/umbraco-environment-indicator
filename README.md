@@ -18,10 +18,6 @@ http://our.umbraco.org/projects/backoffice-extensions/cms-environment-indicator
 
 If you want to modify the default colours, you can do this by editing the `/App_Plugins/CmsEnvironmentIndicator/js/cms-environment-indicator.js` script.  You'll find a JavaScript array called `config`, there you can modify the existing colours and/or add new hostname/colour combinations.  The hostnames are defined as Regular Expressions, so don't forget to escape any dots, etc.
 
-## Known issues
-
-* At present, the colour-overlay for the favicon does not work with Internet Explorer, (tested up to IE10). The stripe on the avatar (top-left) will still appear.
-
 ---
 
 ## Contributing to this project
