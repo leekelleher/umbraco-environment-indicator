@@ -43,7 +43,7 @@ app.run([function () {
 
 		// fallback on a random HEX colour value
 		// hat-tip: http://www.paulirish.com/2009/random-hex-color-code-snippets/
-		return '#' + Math.floor(Math.random() * 16777215).toString(16);
+		return Math.floor(Math.random() * 16777215).toString(16);
 	}
 
 }]);
