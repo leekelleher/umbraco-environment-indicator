@@ -1,6 +1,8 @@
 # Umbraco CMS Environment Indicator
 
 [![Build status](https://img.shields.io/appveyor/ci/leekelleher/umbraco-environment-indicator.svg)](https://ci.appveyor.com/project/leekelleher/umbraco-environment-indicator)
+[![NuGet release](https://img.shields.io/nuget/v/Our.Umbraco.CmsEnvironmentIndicator.svg)](https://www.nuget.org/packages/Our.Umbraco.CmsEnvironmentIndicator)
+[![Our Umbraco project page](https://img.shields.io/badge/our-umbraco-orange.svg)](https://our.umbraco.org/projects/backoffice-extensions/cms-environment-indicator)
 
 
 When developing websites using Umbraco in multi-environment solution, you can often get confused which environment you are currently looking at.
