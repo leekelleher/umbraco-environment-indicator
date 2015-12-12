@@ -1,6 +1,6 @@
 app.run([function () {
 	var config = [
-		{ pattern: "^localhost|.*\.local", color: "991d99" },
+		{ pattern: "^localhost.*$|^.*\.local$", color: "991d99" },
 		{ pattern: "^dev-.*\.umbraco\.io$", color: "1d1d99" },
 		{ pattern: "^stage-.*\.umbraco\.io$", color: "1d991d" },
 		{ pattern: "^.*$", color: "991d1d" }
