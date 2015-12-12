@@ -35,7 +35,7 @@ app.run([function () {
 	function getColor() {
 		if (config) {
 			for (var i in config) {
-				if (new RegExp(config[i].pattern, "i").test(document.domain)) {
+				if (new RegExp(config[i].pattern, "i").test(location.host)) {
 					return config[i].color;
 				}
 			}
