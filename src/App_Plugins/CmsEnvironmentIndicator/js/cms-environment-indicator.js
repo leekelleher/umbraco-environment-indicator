@@ -1,9 +1,9 @@
 app.run([function () {
 	var config = [
-		{ pattern: "^localhost$", color: "991d99" },
+		{ pattern: "^localhost.*$|^.*\.local$", color: "991d99" },
 		{ pattern: "^dev-.*\.umbraco\.io$", color: "1d1d99" },
 		{ pattern: "^stage-.*\.umbraco\.io$", color: "1d991d" },
-		{ pattern: "^.*\.umbraco\.io$", color: "991d1d" }
+		{ pattern: "^.*$", color: "991d1d" }
 	];
 
 	var id = 'favicon';
@@ -35,7 +35,7 @@ app.run([function () {
 	function getColor() {
 		if (config) {
 			for (var i in config) {
-				if (new RegExp(config[i].pattern, "i").test(document.domain)) {
+				if (new RegExp(config[i].pattern, "i").test(location.host)) {
 					return config[i].color;
 				}
 			}

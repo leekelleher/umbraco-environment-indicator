@@ -1,14 +1,15 @@
 _ReSharper.*
-[Bb]in
-[Bb]uild
-[Oo]bj
+[Bb]in/
+[Oo]bj/
 *.suo
 *.user
+*.userprefs
 *.cache
 *.orig
 Thumbs.db
 .DS_Store
+*.log
 
+artifacts/
 src/packages/*/**
-
-CMS_Environment_Indicator_*.zip
+build/output/
