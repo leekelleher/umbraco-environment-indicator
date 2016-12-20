@@ -10,6 +10,9 @@ app.run([function () {
 
 	// check if the '#favicon' already exists; if so exit
 	if (document.getElementById(id)) { return; }
+	
+	// check for Path2D support 
+	if (typeof(Path2D) == "undefined") { return };
 
 	// get the HEX colour value
 	var color = getColor();
