@@ -73,6 +73,10 @@ Have a question?
 
 * [Lee Kelleher](https://github.com/leekelleher)
 
+### Special thanks
+
+* Thanks to [Jonas Boye](https://github.com/JBoye) for contributions, especially PR #13!
+
 
 ## License
 
