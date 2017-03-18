@@ -14,17 +14,17 @@ artifacts:
   - path: artifacts\*.zip
 
 deploy:
-     # MyGet Deployment for builds & releases
+    # MyGet (Umbraco Community feed) Deployment for builds & releases
   - provider: NuGet
-    server: https://www.myget.org/F/pegasus-web/
-    symbol_server: https://nuget.symbolsource.org/MyGet/pegasus-web
+    server: https://www.myget.org/F/umbraco-packages/
+    symbol_server: https://www.myget.org/F/umbraco-packages/symbols/api/v2/package
     api_key:
       secure: Q1/4K8VSwr7BjwmKDTef8y5lOc7S+jK9ELuWy67y6OVRpjxmnF9M3Gfs1kT+ir8x
     artifact: /.*\.nupkg/
     on:
       branch: develop
 
-     # GitHub Deployment for releases
+    # GitHub Deployment for releases
   - provider: GitHub
     auth_token:
       secure: pEozEGTqJutQwOidJU6BTB+Ix0NV4vrUnomhfeqheVz4RNwfxjEYLoqR4XabhlPz
@@ -35,7 +35,7 @@ deploy:
       branch: master
       appveyor_repo_tag: true        # deploy on tag push only
 
-     # NuGet Deployment for releases
+    # NuGet Deployment for releases
   - provider: NuGet
     server: 
     api_key:
