@@ -2,7 +2,7 @@ app.run([function () {
 	var config = [
 		{ pattern: "^localhost.*$|^.*\.local$", color: "55d895" },
 		{ pattern: "^dev-.*\.umbraco\.io$", color: "00BEC1" },
-		{ pattern: "^stage-.*\.umbraco\.io$", color: "413659" },
+		{ pattern: "^stage-.*\.umbraco\.io$", color: "F46036" },
 		{ pattern: "^.*$", color: "FF3E41" }
 	];
 
