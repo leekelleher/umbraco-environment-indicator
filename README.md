@@ -76,6 +76,7 @@ Have a question?
 ### Special thanks
 
 * Thanks to [Jonas Boye](https://github.com/JBoye) for contributions, especially PR #13!
+* Thanks to [Ed Parry](https://github.com/ed-parry) for PR #16!
 
 
 ## License
