@@ -1,9 +1,9 @@
 app.run([function () {
 	var config = [
-		{ pattern: "^localhost.*$|^.*\.local$", color: "55d895" },
-		{ pattern: "^dev-.*\.umbraco\.io$", color: "00BEC1" },
-		{ pattern: "^stage-.*\.umbraco\.io$", color: "F46036" },
-		{ pattern: "^.*$", color: "FF3E41" }
+		{ pattern: "^localhost.*$|^.*\.local$", color: "DF7F48" },
+		{ pattern: "^dev-.*\.umbraco\.io$", color: "0064CD" },
+		{ pattern: "^stage-.*\.umbraco\.io$", color: "46A546" },
+		{ pattern: "^.*$", color: "9D261D" }
 	];
 
 	var id = 'favicon';
