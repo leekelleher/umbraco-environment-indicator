@@ -11,7 +11,7 @@ As a visual aid, this package will add a colour-coded indicator in the CMS back-
 
 ![Environment Indicator](docs/environment-indicator.png)
 
-This package was developed and tested against Umbraco v7+ on the [Umbraco-as-a-Service](https://www.umbraco.io) platform.
+This package was developed and tested against Umbraco v7+ on the [Umbraco Cloud](https://www.umbraco.io) platform.
 
 ## Package installation
 
@@ -75,8 +75,10 @@ Have a question?
 
 ### Special thanks
 
-* Thanks to [Jonas Boye](https://github.com/JBoye) for contributions, especially PR #13!
-* Thanks to [Ed Parry](https://github.com/ed-parry) for PR #16!
+Top-most appreciation for contributions and pull-requests:
+
+* [Jonas Boye](https://github.com/JBoye)
+* [Ed Parry](https://github.com/ed-parry)
 
 
 ## License
