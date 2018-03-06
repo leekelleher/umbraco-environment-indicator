@@ -31,7 +31,7 @@ app.run([function () {
 	// create the <style> block for custom CSS rule
 	var style = document.createElement("style");
 	style.type = "text/css";
-	style.innerText = "ul.sections li.avatar, ul.sections li.avatar:hover { border-left: 8px #" + color + " solid; }";
+	style.innerText = "ul.sections li.avatar, ul.sections li.avatar:hover { border-left: 4px #" + color + " solid; }";
 	head.appendChild(style);
 
 	// function to match the domain/hostname and return get the associated HEX colour value
